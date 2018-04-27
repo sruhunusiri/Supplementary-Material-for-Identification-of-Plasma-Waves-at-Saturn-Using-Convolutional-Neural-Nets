@@ -81,7 +81,7 @@ hold on;
 x_vec = x_vec+0.3;
 errorbar(x_vec,wave_accu_man(i,:),(wave_accu_man(i,:)-min_wave_accu_man(i,:)),(max_wave_accu_man(i,:)-wave_accu_man(i,:)),'o');
 title('wave identificaiton accuracy');
-xlabel('filter size N');
+xlabel('number of filters M');
 ylabel('validation accuracy (%)');
 xticks([2 4 6 8 10 12]);
 xticklabels({'2','4','8','16','32','64'});
@@ -95,7 +95,7 @@ hold on;
 x_vec = x_vec+0.3;
 errorbar(x_vec,turb_accu_man(i,:),(turb_accu_man(i,:)-min_turb_accu_man(i,:)),(max_turb_accu_man(i,:)-turb_accu_man(i,:)),'o');
 title('turbulence identificaiton accuracy');
-xlabel('filter size N');
+xlabel('number of filters M');
 ylabel('validation accuracy (%)');
 xticks([2 4 6 8 10 12]);
 xticklabels({'2','4','8','16','32','64'});
@@ -109,14 +109,14 @@ hold on;
 x_vec = x_vec+0.3;
 errorbar(x_vec,mean_accu_man(i,:),(mean_accu_man(i,:)-min_mean_accu_man(i,:)),(max_mean_accu_man(i,:)-mean_accu_man(i,:)),'o');
 title('average accuracy');
-xlabel('filter size N');
+xlabel('number of filters M');
 ylabel('validation accuracy (%)');
 xticks([2 4 6 8 10 12]);
 xticklabels({'2','4','8','16','32','64'});
 end
 
 lgd =legend('2','4','8','16','32','64');
-title(lgd,'filter number M');
+title(lgd,'filter size N');
 
 
  [row,col]=find(mean_accu_man == max(max(mean_accu_man)))
