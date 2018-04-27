@@ -30,7 +30,7 @@ Detail descriptions of the files are provided below:
 8. A folder containing JPEG images for training, validating, and testing a Convolutional Neural Network: CNN_TVT [62.8 MB]
 
 9. A MATLAB program for generating image data store objects for training, validation, and testing of CNNs: 
-    Dataset_generator_for_CNN_TVT.mat [11 KB]
+    Dataset_generator_for_CNN_TVT.m [11 KB]
 
 10. A MATLAB program for training CNNs and performing 10-fold cross validation: CNN_trainer_and_ten_fold_cross_validator.m [7 KB]  
  
