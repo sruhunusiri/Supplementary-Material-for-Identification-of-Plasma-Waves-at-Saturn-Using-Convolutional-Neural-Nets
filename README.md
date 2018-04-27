@@ -36,7 +36,7 @@ Detail descriptions of the files are provided below:
  
 11. A CNN referred to as CNN1 in the manuscript: CNN1.mat [19 KB].
 
-12. Validation accuracy data determined from 10-fold cross validation for 144 different CNN architectures shown in Figure 7 of the manuscript in .mat format: ten_fold_cross_validation_results.mat [4 KB]
+12. Validation accuracy data determined from a 10-fold cross validation for 144 different CNN architectures shown in Figure 7 of the manuscript in .mat format: ten_fold_cross_validation_results.mat [4 KB]
 
 13. A MATLAB program for plotting the validation accuracies as a function of the CNN architecture parameters as shown in Figure 7 of the manuscript: Validation_Accuracy_Plotter.m [5 KB]
 
