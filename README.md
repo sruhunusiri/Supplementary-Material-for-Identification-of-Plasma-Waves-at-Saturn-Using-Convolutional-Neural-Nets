@@ -27,7 +27,7 @@ Detail descriptions of the files are provided below:
 7. A MATLAB program to save MAG time series with turbulence as 1D 8-BIT RGB JPEG images:  
    Cassini_MAG_data_to_JPEG_Image_Converter_Turb.m [5 KB]
 
-8. A folder containing JPEG images for training, validating, and testing a Convolutional Neural Network: CNN_TVT [3.9 MB]
+8. A folder containing JPEG images for training, validating, and testing a Convolutional Neural Network: CNN_TVT [62.8 MB]
 
 9. A MATLAB program for generating image data store objects for training, validation, and testing of CNNs: 
     Dataset_generator_for_CNN_TVT.mat [11 KB]
