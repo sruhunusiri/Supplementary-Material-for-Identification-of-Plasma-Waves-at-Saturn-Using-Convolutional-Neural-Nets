@@ -2,8 +2,8 @@
 This repository contains supplementary material to Suranga Ruhunusiri, "Identification of Plasma Waves at Saturn Using Convolutional Neural Networks", submitted to IEEE Transactions on Plasma Science, 2018.
 
 The repository contains:
-I. MATLAB programs for generating data sets for training, validating, and testing a Convolutional Neural Network.
-II. MATLAB programs for training, validation, and testing a Convolutional Neural Network.
+I. MATLAB programs for generating data sets for training, validating, and testing a Convolutional Neural Network,
+II. MATLAB programs for training, validation, and testing a Convolutional Neural Network, and
 III. Data for figures in the manuscript. 
 Detail descriptions of the files are provided below:
 
